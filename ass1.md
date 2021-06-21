@@ -11,7 +11,7 @@ Your program must meet the following specification.  You are to write a Python f
 * Takes a string as a single input argument.  You may assume the input string consists 0 or more unique lower-case letters in alphabetical order.
 * Returns a Python list of strings where each string represents a permutation of the input string. The list of permutations must be in lexicographic order (dictionary order). Note: If you follow the pseudo code below, your list will be constructed such that this condition will be met.  Do not sort the list.
 * Is well structured, commented, and easy to read.  Contains a docstring explaining its purpose.
-* Is recursive and follows the pseudo code below.
+* Is recursive and follows the pseudo code below. Place this function in a file "perm_lex.py"
 
 ```
 Argument:	‘’
@@ -111,7 +111,7 @@ For example, suppose that you start with 250 bears. Then you could make these mo
 * Since 52 is divisible by 4, you may multiply the last two digits (resulting in 10) and return these 10 bears. This leaves you with 42 bears.
 
 You have reached the goal!
-Write a recursive function to meet this specification:
+In a file named bears.py, write a recursive function to meet this specification:
 ```
 def bears(n):
     """A True return value means that it is possible to win
